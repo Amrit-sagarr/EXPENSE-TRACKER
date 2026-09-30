@@ -1,10 +1,12 @@
 print("===== PERSONAL EXPENSE TRACKER =====")
 
 income = float(input("Enter your monthly income: "))
-First_expense,Second_expense,third_expense = map(float,input("Enter your expense: ").split())
+a =float(input("Enter expense: "))
+b =float(input("Enter expense: "))
+c=float(input("Enter expense: "))
 
-expenses = First_expense + Second_expense + third_expense
-balance = income - expenses
+expense =a+b+c
+balance = income - expense
 
 print("Monthly Income:", income)
 print("Total Expense:", expense)
